@@ -1,4 +1,4 @@
 class ResumeController < ApplicationController
-  def show
+  def show_home
   end
 end
