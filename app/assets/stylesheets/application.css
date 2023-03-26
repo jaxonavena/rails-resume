@@ -13,6 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+/* Set default font family and size */
+ body {
+  font-family: Georgia, Arial;
+  font-size: 16px;
+  background-image: linear-gradient(to top, rgb(244, 244, 244), rgb(72, 122, 198));
+  background-attachment: fixed;
+}
+
  .links{
   position: absolute;
   bottom: 0;
@@ -30,4 +39,9 @@
   text-decoration: none;
   color: rgb(92, 132, 157);
   font-size: 1.2rem;
+}
+
+.page_title {
+  font-family: Georgia, Arial;
+  font-size: 16px;
 }

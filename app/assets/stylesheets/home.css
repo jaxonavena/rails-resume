@@ -1,19 +1,12 @@
-/* Set default font family and size */
-body {
-  font-family: Georgia, Arial;
-  font-size: 16px;
-  background-image: linear-gradient(to top, rgb(244, 244, 244), rgb(72, 122, 198));
-  background-attachment: fixed;
-}
-
-
-/* Center the "Hi, I'm Jaxon" heading */
+/*"Hi, I'm Jaxon" heading */
 .welcome {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 300px;
   margin-bottom: 0px;
+  animation-name: fade-in;
+  animation-duration: 3.5s;
 }
 
 /* Add a subtle fade-in animation to the heading */
@@ -27,8 +20,7 @@ h1 {
   color: rgb(230, 230, 230);
   font-size: 4rem;
   text-align: center;
-  animation-name: fade-in;
-  animation-duration: 3.5s;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.5);
 }
 
 /*Studying Comp Sci at KU*/
@@ -40,6 +32,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
+/*subtitle*/
 h3 {
   color: rgb(69, 69, 69);
 }
