@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 300px;
+  padding-top: 250px;
   margin-bottom: 0px;
   animation-name: fade-in;
   animation-duration: 3.5s;
@@ -16,12 +16,6 @@
 }
 
 /* "Hi, I'm Jaxon */
-h1 {
-  color: rgb(230, 230, 230);
-  font-size: 4rem;
-  text-align: center;
-  text-shadow: 3px 3px 2px rgba(0,0,0,0.5);
-}
 
 /*Studying Comp Sci at KU*/
 .subtitle {
