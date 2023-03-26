@@ -3,6 +3,7 @@
   <head>
     <title>My Website</title>
     <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= stylesheet_link_tag 'education', media: 'all' %>
   </head>
 
 
@@ -12,38 +13,58 @@
         <h1>Education</h1>
     </div>
 
-    <div>
-      University of Kansas, Lawrence, KS — Computer Science<br>
-      August 2021 - May 2025<br>
-      <ul>
+    <div class="school">
+      <h2>University of Kansas, Lawrence, KS — Computer Science<br>
+          August 2021 - May 2025<br></h2>
+      <p>
+        <ul>
         <li>Pursuing a Bachelor's degree  in Computer Science</li>
         <li>Anticipated graduation date: May 2025</li>
-      </ul>
-      Olathe East High School, Olathe, KS<br>
-      August 2017 - May 2021
+        </ul>
+      </p>
     </div>
 
-    <h5><em>SOFT SKILLS</em></h5>
-      <div>
-        <ul>
-          <li>Leadership</li>
-          <li>Problem solving</li>
-          <li>Effective communicator</li>
-          <li>Creative</li>
-        </ul>
+    <div class="school">
+      <h2>Olathe East High School, Olathe, KS<br></h2>
+      <p>August 2017 - May 2021</p>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="skills-container">
+      <div class = "skill-box soft-skills">
+        <h5>SOFT SKILLS</h5>
+        <p>
+          <ul>
+            <li>Leadership</li>
+            <li>Problem solving</li>
+            <li>Effective communicator</li>
+            <li>Creative</li>
+          </ul>
+        </p>
       </div>
 
-    <h5><em>HARD SKILLS</em></h5>
-      <div>
-        <ul>
-          <li>Python</li>
-          <li>C/C++ fundamentals</li>
-          <li>HTML and CSS fundamentals</li>
-          <li>Ruby and Ruby on Rails fundamentals</li>
-          <li>Git</li>
-          <li>UML</li>
-        </ul>
+      <div class = "skill-box hard-skills">
+        <h5>HARD SKILLS</h5>
+        <p>
+          <ul>
+            <li>Python</li>
+            <li>C/C++ fundamentals</li>
+            <li>HTML and CSS fundamentals</li>
+            <li>Ruby and Ruby on Rails fundamentals</li>
+            <li>Git</li>
+            <li>UML</li>
+          </ul>
+        <p>
       </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
 
     <div class = "links">
       <%= link_to 'Home', resume_path %>

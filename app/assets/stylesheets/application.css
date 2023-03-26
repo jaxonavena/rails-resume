@@ -30,8 +30,8 @@ h1 {
 }
 
 
- .links{
-  position: absolute;
+.links {
+  position: fixed;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -47,6 +47,7 @@ h1 {
   text-decoration: none;
   color: rgb(92, 132, 157);
   font-size: 1.2rem;
+  position: relative; /* to make :after pseudo-element relative to link */
 }
 
 .page_title {

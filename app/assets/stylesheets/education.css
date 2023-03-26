@@ -1,0 +1,59 @@
+
+
+.school {
+	background: rgba(0, 75, 141, 0.8);
+	color: white;
+	padding: 40px;
+	position: relative;
+	transform: skewY(-5deg);
+	margin-bottom: 50px;
+}
+
+.school:before {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: -20px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 20px 20px;
+	border-color: transparent transparent rgba(44, 62, 80, 0.8) transparent;
+	transform: rotate(45deg);
+}
+
+
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.skill-box {
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+
+.skill-box h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.skill-box p {
+  margin-bottom: 0;
+}
+
+.soft-skills,
+.hard-skills {
+  width: 45%;
+}

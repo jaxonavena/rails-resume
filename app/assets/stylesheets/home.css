@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 250px;
+  padding-top: 230px;
   margin-bottom: 0px;
   animation-name: fade-in;
   animation-duration: 3.5s;
@@ -15,16 +15,36 @@
   to { opacity: 1; }
 }
 
-/* "Hi, I'm Jaxon */
-
-/*Studying Comp Sci at KU*/
 .subtitle {
+  display: inline-block;
+  font-size: 1rem;
+  color: white;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
-  margin-bottom: 2rem;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
 }
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+  100% { border-right: none; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+
+
 
 /*subtitle*/
 h3 {
