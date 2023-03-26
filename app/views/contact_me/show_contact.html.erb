@@ -1,15 +1,27 @@
-<body>
-  <%= link_to 'Home', resume_path %>
-  <%= link_to 'Experience', experience_path %>
-  <%= link_to 'Education', education_path %>
-  <%= link_to 'Projects', projects_path %>
-  <%= link_to 'About Me', about_me_path %>
-
-  <div>
-  jaxonavena@gmail.com <br>
-  LinkedIn - Jaxon Avena <br>
-  Github - jaxonavena <br>
-  </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+  </head>
 
 
-</body>
+  <body>
+
+    <div>
+      jaxonavena@gmail.com <br>
+      LinkedIn - Jaxon Avena <br>
+      Github - jaxonavena <br>
+    </div>
+
+      <div class = "links">
+        <%= link_to 'Home', resume_path %>
+        <%= link_to 'Experience', experience_path %>
+        <%= link_to 'Education', education_path %>
+        <%= link_to 'Projects', projects_path %>
+        <%= link_to 'About Me', about_me_path %>
+      </div>
+  </body>
+
+</html>
+

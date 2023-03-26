@@ -1,9 +1,13 @@
-<body>
-  <%= link_to 'Home', resume_path %>
-  <%= link_to 'Contact Me', contact_me_path %>
-  <%= link_to 'Education', education_path %>
-  <%= link_to 'Projects', projects_path %>
-  <%= link_to 'About Me', about_me_path %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+  </head>
+
+
+  <body>
+
 
   <h4><em>WORK EXPERIENCE</em></h4>
     <div>
@@ -31,4 +35,18 @@
         <li>  Utilized time management and organizational skills to meet deadlines </li>
       </ul>
     </div>
+
+    <div class = "links">
+      <%= link_to 'Home', resume_path %>
+      <%= link_to 'Contact Me', contact_me_path %>
+      <%= link_to 'Education', education_path %>
+      <%= link_to 'Projects', projects_path %>
+      <%= link_to 'About Me', about_me_path %>
+    </div>
 </body>
+
+
+</html>
+
+
+

@@ -1,9 +1,13 @@
-<body bgcolor = #ABD5CC>
-  <%= link_to 'Home', resume_path %>
-  <%= link_to 'Contact Me', contact_me_path %>
-  <%= link_to 'Experience', experience_path %>
-  <%= link_to 'Education', education_path %>
-  <%= link_to 'Projects', projects_path %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+  </head>
+
+
+  <body>
+
 
   <h5><em>SOFT SKILLS</em></h5>
     <div>
@@ -62,5 +66,16 @@
       </ul>
     </div>
 
+    <div class = "links">
+      <%= link_to 'Home', resume_path %>
+      <%= link_to 'Contact Me', contact_me_path %>
+      <%= link_to 'Experience', experience_path %>
+      <%= link_to 'Education', education_path %>
+      <%= link_to 'Projects', projects_path %>
+    </div>
 
 </body>
+
+
+</html>
+
