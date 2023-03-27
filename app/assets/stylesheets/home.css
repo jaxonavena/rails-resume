@@ -29,7 +29,7 @@
   justify-content: center;
   align-items: center;
   animation-iteration-count: infinite;
-  animation-delay: 2s;
+  animation-delay: 3.5s;
 }
 
 @keyframes typing {

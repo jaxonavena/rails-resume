@@ -1,0 +1,56 @@
+/* Set body margin and padding to 0 to avoid any default browser styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the page title */
+.page_title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+/* Style for the project list */
+.project {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover animation for project */
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the project title */
+.project h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Style for the project description */
+.project p {
+  margin: 0.5rem 0;
+}
+
+/* Style for the project link */
+.project a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover animation for project link */
+.project a:hover {
+  background-color: #0056b3;
+}
+
