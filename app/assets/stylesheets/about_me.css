@@ -1,0 +1,38 @@
+/* Set body margin and padding to 0 to avoid any default browser styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the main content container */
+.main_content {
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Style for the Honors and Extracurricular section headers */
+.section_header {
+  font-family: Verdana, sans-serif;
+  color: white;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.subsection_header {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.subsection_content {
+  text-align:center;
+}

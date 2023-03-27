@@ -3,6 +3,8 @@
   <head>
     <title>My Website</title>
     <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= stylesheet_link_tag 'about_me', media: 'all' %>
+
   </head>
 
 
@@ -13,41 +15,55 @@
     </div>
 
 
-
-    <h5><em>HONORS</em></h5>
-      <div>
-        University of Kansas -
-        <ul>
-          <li>School of Engineering Chancellor's Scholarship</li>
-          <li>Honor Roll Fall/Spring 2022</li>
-        </ul>
-
-        Olathe East High School -
-        <ul>
-          <li>4 year Honor Roll student</li>
-          <li>2021 Most Outstanding Male Athlete</li>
-          <li>Recipient of the "Seal of Biliteracy" for Spanish</li>
-        </ul>
+    <div class="main_content">
+      <div class="section">
+        <h2 class="section_header">Honors</h2>
+          <div class ="subsection_header">
+            University of Kansas
+          </div>
+            <div class = "subsection_content">
+              <p>School of Engineering Chancellor's Scholarship<p>
+              <p>Honor Roll Fall/Spring 2022<p>
+            </div>
+<br>
+          <div class = "subsection_header">
+            Olathe East High School
+          </div>
+            <div class = "subsection_content">
+              <p>4 year Honor Roll student<p>
+              <p>2021 Most Outstanding Male Athlete<p>
+              <p>Recipient of the "Seal of Biliteracy" for Spanish<p>
+            </div>
       </div>
 
-    <h5><em>EXTRA-CURRICULARS</em></h5>
-      <div>
-        Ground Theory Brazilian Jiu Jitsu -
-        <ul>
-          <li>Current extra-curricular activity</li>
-        </ul>
 
-        Olathe East High School -
-        <ul>
-          <li>Varsity Wrestler and team captain, 3x State Qualifier, 1x 3rd place State Placer</li>
-          <li>Varsity Football player and team captain</li>
-        </ul>
+      <div class="section">
+        <h2 class="section_header">Extracurriculars</h2>
+          <div class = "subsection_header">
+            Ground Theory Brazilian Jiu Jitsu
+        </div>
+          <div class = "subsection_content">
+              <p>Current extra-curricular activity<p>
+          </div>
+<br>
+        <div class = "subsection_header">
+          Olathe East High School
+        </div>
+          <div class = "subsection_content">
+            <p>Varsity Wrestler and team captain, 3x State Qualifier, 1x 3rd place State Placer<p>
+            <p>Varsity Football player and team captain<p>
+          </div>
+<br>
+        <div class = "subsection_header">
+          Boy Scouts of America
+        </div>
+          <div class = "subsection_content">
+            <p>8 year participant<p>
+          </div>
 
-        Boy Scouts of America -
-        <ul>
-          <li>8 year participant</li>
-        </ul>
       </div>
+    </div>
+
 
       <div class = "links">
         <%= link_to 'Home', resume_path %>
