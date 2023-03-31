@@ -3,6 +3,7 @@
   width: 150px; /* adjust as needed */
   text-align: center;
   margin: 20px; /* adjust as needed */
+  vertical-align: middle; /* add this line */
 }
 
 .job-icon img {
