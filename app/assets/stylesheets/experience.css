@@ -1,8 +1,16 @@
+.job-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* set the height as needed */
+}
+
+
 .job-icon {
   display: inline-block;
   width: 150px; /* adjust as needed */
   text-align: center;
-  margin: 20px; /* adjust as needed */
+  margin: 60px; /* adjust as needed */
   vertical-align: middle; /* add this line */
 }
 
